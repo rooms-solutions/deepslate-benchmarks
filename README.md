@@ -1,3 +1,8 @@
+> [!Note]
+> Currently Deepslate's Speech Generation is still in closed beta, therefore these Benchmarks can only be publicly validated with external TTS Models like Elevenlabs for now. Changes to this repository will be made once it is in a public preview. 
+>
+> Due to some comments: This does not mean that Deepslate Opal is not capable of true native Speech to Speech. Opal understands Audio natively without Text representation and is able to output either Text or Audio directly. As long as the Speech Generation is in closed beta, the public API will run the Model in Audio in & Text out Mode. For more details see [here](https://docs.deepslate.eu/opal#speech-to-text:~:text=Speech%2Dto%2DText,for%20voice%20generation.).
+
 # Deepslate Benchmarks
 
 Benchmark suite for Deepslate speech model Opal using the realtime WebSocket API.
